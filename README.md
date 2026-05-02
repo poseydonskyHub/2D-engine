@@ -1,6 +1,6 @@
 # 2D-engine
 
-2D-engine - this is a basic graphics 2D engine made in C++.
+2D-engine - this is a basic graphics 2D engine made in C++. (use WASD to move).
 
 ## Structure
 
@@ -12,6 +12,10 @@ src/
   Game.cpp      - game logic
 ```
 
+
+##Appearance
+
+![App appearance](https://github.com/poseydonskyHub/2D-engine/blob/main/application_image.png)
 
 ## CMake assembly
  
