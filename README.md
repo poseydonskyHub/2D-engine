@@ -2,6 +2,7 @@
 
 2D-engine - this is a basic graphics 2D engine made in C++. (use WASD to move).
 
+
 ## Structure
 
 ```text
@@ -13,9 +14,10 @@ src/
 ```
 
 
-##Appearance
+## Appearance
 
 ![App appearance](https://github.com/poseydonskyHub/2D-engine/blob/main/application_image.png)
+
 
 ## CMake assembly
  
@@ -26,6 +28,7 @@ cmake -S . -B build
 cmake --build build
 .\build\Debug\Tiny2D.exe
 ```
+
 
 ## Visual Studio launch
 
