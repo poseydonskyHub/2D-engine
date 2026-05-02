@@ -1,6 +1,7 @@
 # 2D-engine
 
 2D-engine - this is a basic graphics 2D engine made in C++. (use WASD to move).
+!NOW AVAILABLE ON LINUX AND WINDOWS!
 
 
 ## Structure
@@ -11,22 +12,37 @@ src/
   Engine.h      - main types of engine
   Engine.cpp    - window, render, input
   Game.cpp      - game logic
+  PlatformWin32.cpp - Windows window backend
+  PlatformLinux.cpp - Linux X11 window backend
 ```
 
 
 ## Appearance
 
+windows
 ![App appearance](https://github.com/poseydonskyHub/2D-engine/blob/main/application_image.png)
 
+linux (test on arch)
+![App appearance](https://github.com/poseydonskyHub/2D-engine/blob/main/linux_apperance.png)
 
 ## CMake assembly
  
-Если установлен Visual Studio Build Tools:
+if installed Visual Studio Build Tools:
 
 ```powershell
 cmake -S . -B build
 cmake --build build
 .\build\Debug\Tiny2D.exe
+```
+
+
+## Linux assembly
+
+```powershell
+sudo apt install build-essential cmake libx11-dev
+cmake -S . -B build
+cmake --build build
+./build/Tiny2D
 ```
 
 
